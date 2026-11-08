@@ -37,3 +37,8 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# Llaves de cuentas de servicio (deben vivir FUERA del proyecto)
+distrisalva-app*.json
+*-firebase-adminsdk-*.json
+service-account*.json

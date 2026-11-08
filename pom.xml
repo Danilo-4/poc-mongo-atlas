@@ -22,6 +22,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
         </dependencies>
     </dependencyManagement>
     <dependencies>
@@ -29,6 +30,12 @@
         <dependency>
             <groupId>org.mongodb</groupId>
             <artifactId>mongodb-driver-sync</artifactId>
+        </dependency>
+        <!-- NUEVO: Firebase Admin SDK (incluye el cliente de Cloud Firestore) -->
+        <dependency>
+            <groupId>com.google.firebase</groupId>
+            <artifactId>firebase-admin</artifactId>
+            <version>9.11.0</version>
         </dependency>
     </dependencies>
 </project>
